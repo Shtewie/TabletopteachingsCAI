@@ -29,7 +29,7 @@ const ADVENTURES = [
     group: "Ages 8–10 · Party of 4",
     sessions: "Session 6 of 10",
     blurb:
-      "The marsh lanterns have gone out one by one, and the frogfolk of Reedhome need heroes small enough to sneak through the reeds and brave enough to ask the right questions.",
+      "The marsh lanterns have gone out one by one, and the treefolk of Reedhome need heroes small enough to sneak through the reeds and brave enough to ask the right questions.",
     world: [
       {
         session: "Session 1",
