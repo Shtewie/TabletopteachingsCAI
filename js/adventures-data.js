@@ -24,7 +24,7 @@ const ADVENTURES = [
   {
     slug: "lantern-marsh",
     name: "The Lantern Marsh",
-    tagline: "A soggy mystery with very polite frogs",
+    tagline: "A soggy mystery with very polite cats",
     tone: "quest-3",
     group: "Ages 8–10 · Party of 4",
     sessions: "Session 6 of 10",
