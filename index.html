@@ -42,6 +42,15 @@
       </header>
 
       <main>
+        <section id="quests" class="section">
+          <span class="eyebrow">Live Campaigns</span>
+          <h2 class="section-title">Quests Underway Right Now</h2>
+          <div class="campaign-switcher" id="home-quests-grid"></div>
+          <div style="text-align: center; margin-top: 2.5rem;">
+            <a href="adventures/" class="btn btn-accent">See All Adventures</a>
+          </div>
+        </section>
+
         <section id="tenets" class="section">
           <h2 class="section-title">What We Stand For</h2>
           <div class="tenets-grid">
@@ -123,5 +132,7 @@
   </div>
 
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="js/adventures-data.js"></script>
+  <script src="js/home-quests.js"></script>
 </body>
 </html>
