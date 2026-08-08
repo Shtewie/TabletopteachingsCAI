@@ -19,8 +19,6 @@
   [headers.values]
     Cache-Control = "public, max-age=86400"
 
-[[redirects]]
-  from = "/adventures"
-  to = "/adventures/"
-  status = 301
-  force = true
+# Note: no redirect rule needed for /adventures — Netlify's built-in
+# pretty-URL handling already serves adventures/index.html there
+# automatically. Adding an explicit redirect for it caused a redirect loop.
