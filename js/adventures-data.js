@@ -22,7 +22,7 @@
 
 const ADVENTURES = [
   {
-    slug: "lantern-marsh",
+    slug: "lantern-marsh 3",
     name: "The Lantern Marsh",
     tagline: "A soggy mystery with very polite frogs",
     tone: "quest-3",
