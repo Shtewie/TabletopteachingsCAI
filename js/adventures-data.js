@@ -68,6 +68,52 @@ const ADVENTURES = [
     ],
   },
   {
+    slug: "Test 1",
+    name: "Test1",
+    tagline: "A test",
+    tone: "quest-3",
+    group: "Ages 8–10 · Party of 4",
+    sessions: "Session 6 of 10",
+    blurb:
+      "The marsh lanterns have gone out one by one, and the treefolk of Reedhome need heroes small enough to sneak through the reeds and brave enough to ask the right questions.",
+    world: [
+      {
+        session: "Session 1",
+        title: "Arrival at Reedhome",
+        body: "The party met Mayor Bulrush and learned the lanterns keep the mist-things away. They were each given a reed charm.",
+      },
+      {
+        session: "Session 3",
+        title: "The Sunken Library",
+        body: "Under the water sat a library of waterproof books. The heroes read three clues aloud to open the door.",
+      },
+      {
+        session: "Session 5",
+        title: "The Lamplighter's Letter",
+        body: "A half-burnt letter revealed the old lamplighter did not vanish — she is hiding. The party wrote a reply and sent it by heron.",
+      },
+      {
+        session: "Session 6",
+        title: "Into the Deep Reeds",
+        body: "Currently exploring the deep reeds, following heron tracks toward a hidden houseboat.",
+      },
+    ],
+    characters: [
+      { name: "Pipwick Marsh", player: "Player A", role: "Halfling Ranger", note: "Keeps a field journal of every animal the party meets." },
+      { name: "Sir Bramble", player: "Player B", role: "Tortle Paladin", note: "Has sworn an oath to never let a friend go hungry." },
+      { name: "Nettle", player: "Player C", role: "Goblin Artificer", note: "Built a lantern that only lights when someone tells the truth." },
+      { name: "Moss", player: "Player D", role: "Frogfolk Bard", note: "Composes a short rhyme at the end of every session." },
+    ],
+    objectives: [
+      { label: "Read a short passage aloud to the group", skill: "Reading", done: true },
+      { label: "Find key details in a written clue", skill: "Reading", done: true },
+      { label: "Write an in-character letter", skill: "Writing", done: true },
+      { label: "Describe a place using three senses", skill: "Writing", done: false },
+      { label: "Take turns without interrupting", skill: "Social", done: true },
+      { label: "Negotiate a plan the whole party agrees on", skill: "Social", done: false },
+    ],
+  }
+  {
     slug: "clockwork-caravan",
     name: "The Clockwork Caravan",
     tagline: "Inventors, deserts and one very lost robot",
