@@ -12,13 +12,13 @@
 
 const ADVENTURES = [
   {
-    "slug": "test",
-    "name": "test",
-    "tagline": "test",
-    "tone": "quest-4",
-    "group": "test",
+    "slug": "lantern-marsh",
+    "name": "The Lantern Marsh",
+    "tagline": "A soggy mystery with very polite cats",
+    "tone": "quest-3",
+    "group": "Ages 8–10 · Party of 4",
     "sessions": "Session 6 of 10",
-    "blurb": "test",
+    "blurb": "The marsh lanterns have gone out one by one, and the treefolk of Reedhome need heroes small enough to sneak through the reeds and brave enough to ask the right questions.",
     "world": [
       {
         "session": "Session 1",
@@ -191,56 +191,33 @@ const ADVENTURES = [
     ]
   },
   {
-    "slug": "starlit-academy",
-    "name": "The Starlit Academy",
-    "tagline": "School for young wizards, monsters in the hallways",
+    "slug": "a-workshop-for-wizards-and-warriors",
+    "name": " A Workshop for Wizards and Warriors ",
+    "tagline": "The first day of school for new batch of Wizards and Warriors ",
     "tone": "quest-2",
-    "group": "Ages 9–11 · Party of 4",
-    "sessions": "Session 2 of 12",
-    "blurb": "Term has just begun at an academy that floats above the clouds. There are classes to attend, friends to make, and something scratching behind the observatory wall.",
+    "group": "Ages 15–18 · ",
+    "sessions": "Session 0 ",
+    "blurb": "Jubilation fills the air, Students the halls, a new dawn rises on the grounds of The Gillview Institute. Professor Gill Octavius The III viscount of Ardenvale and heir to the throne of Fellmore welcomes you with poise and elegance only someone with a title that long could posses. Join us on an our adventure through the Gillview institute, Will you study with the wizards, train with the barbarians, sing with the bards or forge your own path, Gillview welcomes you to discover what kind of adventurer you really are.",
     "world": [
       {
         "session": "Session 1",
-        "title": "Sorting Day",
-        "body": "Each hero chose a study house and wrote their own school motto."
-      },
-      {
-        "session": "Session 2",
-        "title": "The Scratching Wall",
-        "body": "Currently investigating strange noises in the observatory after curfew."
+        "title": "First Day Jitters",
+        "body": "Our hero's prepare them selves for the exciting day to come, the first step on the way to becoming a real adventurer, The Gillview Institute may be a safe training ground for new adventurers but that doesn't mean there won't be dangers, who knows what really goes on behind those prestigious walls."
       }
     ],
     "characters": [
       {
-        "name": "Ives Quill",
-        "player": "Player J",
-        "role": "Apprentice Wizard",
-        "note": "Takes notes in every class, magical or not."
-      },
-      {
-        "name": "Bo Tumble",
-        "player": "Player K",
-        "role": "Apprentice Monk",
-        "note": "Elected class representative in session one."
-      },
-      {
-        "name": "Wren",
-        "player": "Player L",
-        "role": "Apprentice Druid",
-        "note": "Adopted a school owl named Professor."
-      },
-      {
-        "name": "Ash Vell",
-        "player": "Player M",
-        "role": "Apprentice Sorcerer",
-        "note": "Wrote the house motto the whole group voted for."
+        "name": "Gill Octavius ",
+        "player": "",
+        "role": "Professor",
+        "note": "Heir to the most powerful kingdom in the land, Gill Octavius in his old age has taken a more ... theoretical approach to adventures, educating the adventurers of a new era, though he never can quite escape a little trouble."
       }
     ],
     "objectives": [
       {
         "label": "Read a short story and retell it",
         "skill": "Reading",
-        "done": true
+        "done": false
       },
       {
         "label": "Sound out unfamiliar words with support",
@@ -250,7 +227,7 @@ const ADVENTURES = [
       {
         "label": "Write a motto or short creative line",
         "skill": "Writing",
-        "done": true
+        "done": false
       },
       {
         "label": "Write a character backstory paragraph",
@@ -260,7 +237,7 @@ const ADVENTURES = [
       {
         "label": "Introduce yourself to a new group",
         "skill": "Social",
-        "done": true
+        "done": false
       },
       {
         "label": "Ask a quieter player for their idea",
