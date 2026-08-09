@@ -35,7 +35,7 @@ a new one, or delete a block to remove one.
 
 **Colours / fonts**: all defined at the top of `css/style.css` under
 `:root`. The site uses six "quest" colour tones (`--quest-1` through
-`--quest-2` `--quest-6`) that are reused across cards, tags and badges.
+`--quest-6`) that are reused across cards, tags and badges.
 
 ## Running it locally
 
