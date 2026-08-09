@@ -238,6 +238,18 @@ img { max-width: 100%; display: block; }
   font-size: 1.875rem;
   color: var(--secondary-foreground);
 }
+.section-cta-wrap { margin-top: 0.5rem; text-align: center; }
+.section-cta {
+  display: inline-block;
+  border-radius: 9999px;
+  background: var(--accent);
+  color: var(--accent-foreground);
+  padding: 0.625rem 1.5rem;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  transition: transform 0.1s ease;
+}
+.section-cta:active { transform: translateY(2px); }
 
 /* ---- Tenets / quest cards -------------------------------------------------- */
 .tenets-grid {

@@ -7,14 +7,19 @@ can serve these files exactly as they are.
 ## File map
 
 ```
-index.html              → the homepage
+index.html              → the homepage (includes a "live adventures" teaser
+                           section rendered by js/home-quests.js)
 adventures/index.html   → the "Live Adventures" page (shell only — content
                            is rendered by JS from adventures-data.js)
 css/style.css            → all styling (colours, fonts, layout)
 js/adventures-data.js    → the campaign content — edit THIS to update
-                           the Adventures page, not the HTML
-js/adventures.js         → renders adventures-data.js onto the page and
-                           handles the campaign/tab switching
+                           the Adventures page (and homepage teaser), not
+                           the HTML
+js/adventures.js         → renders adventures-data.js onto the Adventures
+                           page and handles the campaign/tab switching
+js/home-quests.js        → renders the first 3 campaigns from
+                           adventures-data.js into the homepage's
+                           #home-quests-grid teaser
 favicon.ico, robots.txt  → site basics
 netlify.toml             → Netlify hosting config (headers, redirects)
 404.html                 → shown for any missing page
