@@ -101,103 +101,13 @@ const ADVENTURES = [
     ]
   },
   {
-    "slug": "clockwork-caravan",
-    "name": "The Clockwork Caravan",
-    "tagline": "Inventors, deserts and one very lost robot",
-    "tone": "quest-4",
-    "group": "Ages 10–12 · Party of 5",
-    "sessions": "Session 4 of 8",
-    "blurb": "A travelling caravan of tinkerers rolls across the Amber Waste. Its engine is failing, its map is wrong, and the only one who remembers the way is a rusted automaton who speaks in riddles.",
-    "world": [
-      {
-        "session": "Session 1",
-        "title": "Hired at Brasswell",
-        "body": "The party joined the caravan as guards and were each handed a toolbelt and a job title."
-      },
-      {
-        "session": "Session 2",
-        "title": "The Riddle of Cog",
-        "body": "Cog the automaton would only answer questions asked politely and precisely. The party wrote their questions down first."
-      },
-      {
-        "session": "Session 4",
-        "title": "Sandstorm Council",
-        "body": "Currently sheltering from a storm and debating whether to trust the merchant Halba."
-      }
-    ],
-    "characters": [
-      {
-        "name": "Zia Sparkwrench",
-        "player": "Player E",
-        "role": "Gnome Inventor",
-        "note": "Draws a diagram of every machine she meets."
-      },
-      {
-        "name": "Ordo",
-        "player": "Player F",
-        "role": "Dragonborn Fighter",
-        "note": "Appointed caravan captain by unanimous vote."
-      },
-      {
-        "name": "Little Fen",
-        "player": "Player G",
-        "role": "Human Scout",
-        "note": "Keeps the party's map and updates it each session."
-      },
-      {
-        "name": "Marbleye",
-        "player": "Player H",
-        "role": "Warforged Cleric",
-        "note": "Collects sayings and writes them on their own arm."
-      },
-      {
-        "name": "Tamsin",
-        "player": "Player I",
-        "role": "Tiefling Rogue",
-        "note": "Negotiated the party's pay up by two gold each."
-      }
-    ],
-    "objectives": [
-      {
-        "label": "Read instructions and follow them in order",
-        "skill": "Reading",
-        "done": true
-      },
-      {
-        "label": "Skim a document for one specific fact",
-        "skill": "Reading",
-        "done": true
-      },
-      {
-        "label": "Write clear questions before asking them",
-        "skill": "Writing",
-        "done": true
-      },
-      {
-        "label": "Keep a written session log",
-        "skill": "Writing",
-        "done": false
-      },
-      {
-        "label": "Give a teammate a compliment in character",
-        "skill": "Social",
-        "done": true
-      },
-      {
-        "label": "Disagree respectfully during a group decision",
-        "skill": "Social",
-        "done": false
-      }
-    ]
-  },
-  {
     "slug": "a-workshop-for-wizards-and-warriors",
     "name": " A Workshop for Wizards and Warriors ",
-    "tagline": "The first day of school for new batch of Wizards and Warriors ",
+    "tagline": "The first day of school for new batch of adventurers",
     "tone": "quest-2",
-    "group": "Ages 15–18 · ",
+    "group": "Ages 13–15",
     "sessions": "Session 0 ",
-    "blurb": "Jubilation fills the air, Students the halls, a new dawn rises on the grounds of The Gillview Institute. Professor Gill Octavius The III viscount of Ardenvale and heir to the throne of Fellmore welcomes you with poise and elegance only someone with a title that long could posses. Join us on an our adventure through the Gillview institute, Will you study with the wizards, train with the barbarians, sing with the bards or forge your own path, Gillview welcomes you to discover what kind of adventurer you really are.",
+    "blurb": "Jubilation fills the air, Students the halls, a new dawn rises on the grounds of the Gillview Institute. Professor Gill Octavius The III viscount of Ardenvale and heir to the throne of Fellmore welcomes you with poise and elegance only someone with a title that long could posses. Join us on an our adventure through the Gillview institute, Will you study with the wizards, train with the barbarians, sing with the bards or forge your own path, Gillview welcomes you to discover what kind of adventurer you really are.",
     "world": [
       {
         "session": "Session 1",
@@ -241,6 +151,56 @@ const ADVENTURES = [
       },
       {
         "label": "Ask a quieter player for their idea",
+        "skill": "Social",
+        "done": false
+      }
+    ]
+  },
+  {
+    "slug": "multidimensional-detective-agency",
+    "name": "Multidimensional Detective Agency",
+    "tagline": "Crime is afoot ... or a hand ? I'm not sure, you can never really know in this wacky whodunnit.",
+    "tone": "quest-6",
+    "group": "Ages 15–18",
+    "sessions": "Session 0",
+    "blurb": "",
+    "world": [],
+    "characters": [
+      {
+        "name": "Zia Sparkwrench",
+        "player": "Player E",
+        "role": "Gnome Inventor",
+        "note": "Draws a diagram of every machine she meets."
+      }
+    ],
+    "objectives": [
+      {
+        "label": "Read instructions and follow them in order",
+        "skill": "Reading",
+        "done": true
+      },
+      {
+        "label": "Skim a document for one specific fact",
+        "skill": "Reading",
+        "done": true
+      },
+      {
+        "label": "Write clear questions before asking them",
+        "skill": "Writing",
+        "done": true
+      },
+      {
+        "label": "Keep a written session log",
+        "skill": "Writing",
+        "done": false
+      },
+      {
+        "label": "Give a teammate a compliment in character",
+        "skill": "Social",
+        "done": true
+      },
+      {
+        "label": "Disagree respectfully during a group decision",
         "skill": "Social",
         "done": false
       }
