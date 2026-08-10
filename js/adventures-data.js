@@ -107,7 +107,7 @@ const ADVENTURES = [
     "tone": "quest-2",
     "group": "Ages 13–15",
     "sessions": "Session 0 ",
-    "blurb": "Jubilation fills the air, Students the halls, a new dawn rises on the grounds of the Gillview Institute. Professor Gill Octavius The III viscount of Ardenvale and heir to the throne of Fellmore welcomes you with poise and elegance only someone with a title that long could posses. Join us on an our adventure through the Gillview institute, Will you study with the wizards, train with the barbarians, sing with the bards or forge your own path, Gillview welcomes you to discover what kind of adventurer you really are.",
+    "blurb": "Jubilation fills the air, students the halls, a new dawn rises on the grounds of the Gillview Institute. Professor Gill Octavius The III viscount of Ardenvale and heir to the throne of Fellmore welcomes you with poise and elegance only someone with a title that long could posses. Join us on an our adventure through the Gillview institute, Will you study with the wizards, train with the barbarians, sing with the bards or forge your own path, Gillview welcomes you to discover what kind of adventurer you really are.",
     "world": [
       {
         "session": "Session 1",
@@ -163,7 +163,7 @@ const ADVENTURES = [
     "tone": "quest-6",
     "group": "Ages 15–18",
     "sessions": "Session 0",
-    "blurb": "",
+    "blurb": "Martin Point, a city built on a rift in the fabric of the multiverse, starting as a waypoint for weary inter-dimensional travellers has become a powerful metropolis. Martin Points maze of back alleys, shop fronts and towering megaliths of industry are built upon the shoulders of a powerless proletariat. An unspoken and tangible web of deceit, propaganda and manipulation has recently been unveiled by the curious death of Mayvil Aberneth the leader of a workers empowerment movement. What Happened to Mayvil Aberneth ? Who can you trust ? How will you go about bringing justice to Martin Point ?",
     "world": [],
     "characters": [
       {
