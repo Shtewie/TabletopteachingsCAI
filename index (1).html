@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabletop Teachings | D&amp;D Adventures That Teach Kids Reading &amp; Writing</title>
+  <meta name="author" content="Tabletop Teachings" />
+  <meta name="description" content="Tabletop Teachings runs handcrafted Dungeons & Dragons sessions for kids that build reading, writing and social skills. No experience or equipment needed." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tabletop Teachings | D&D Adventures That Teach" />
+  <meta property="og:description" content="Handcrafted campaigns for young adventurers, with structured learning goals, take-home resources and personalised learning records." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Critical, above-the-fold CSS inlined so the page paints without
+       waiting on any network request (fixes render-blocking + chained
+       critical requests). The full stylesheet below fills in everything
+       else once it arrives; values here are kept in sync with css/style.css. -->
+  <style>
+    :root{--background:oklch(0.968 0.018 85);--foreground:oklch(0.245 0.032 60);--secondary:oklch(0.955 0.024 88);--secondary-foreground:oklch(0.36 0.05 62);--primary:oklch(0.72 0.16 68);--primary-foreground:oklch(0.99 0.006 90);--accent:oklch(0.63 0.19 18);--accent-foreground:oklch(0.99 0.006 90);--muted:oklch(0.955 0.014 90);--radius-2xl:3rem;--font-display:"Fredoka",system-ui,sans-serif;--font-body:"Quicksand",system-ui,sans-serif}
+    *,*::before,*::after{box-sizing:border-box}
+    body{margin:0;background-color:var(--background);color:var(--foreground);font-family:var(--font-body);-webkit-font-smoothing:antialiased}
+    h1,h2,h3{font-family:var(--font-display);letter-spacing:.01em;margin:0}
+    p{margin:0}a{color:inherit;text-decoration:none}
+    .container{width:100%;max-width:64rem;margin-inline:auto;padding:3rem 1.5rem}
+    .site-nav .container{padding-block:0}
+    .min-h-screen{min-height:100vh}
+    .eyebrow{display:inline-block;margin-bottom:1.25rem;border-radius:9999px;background:var(--primary);color:var(--primary-foreground);padding:.25rem 1rem;font-size:.875rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+    .site-nav{position:sticky;top:0;z-index:50;border-bottom:4px dotted color-mix(in oklab,var(--primary) 30%,transparent);background:color-mix(in oklab,var(--background) 90%,transparent);backdrop-filter:blur(6px)}
+    .site-nav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem;padding-block:1rem}
+    .brand{display:flex;align-items:center;gap:.5rem}
+    .brand-mark{display:flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;border-radius:.75rem;background:var(--primary)}
+    .brand-mark span{width:1rem;height:1rem;transform:rotate(45deg);border-radius:3px;border:2px solid var(--primary-foreground)}
+    .brand-name{font-family:var(--font-display);font-size:1.25rem;color:var(--primary)}
+    .nav-links{display:flex;align-items:center;gap:.25rem;font-size:.875rem;font-weight:700;color:var(--secondary-foreground)}
+    .nav-links a{border-radius:9999px;padding:.375rem .75rem;transition:background-color .15s ease}
+    .nav-links a:hover,.nav-links a[aria-current="page"]{background:var(--muted)}
+    .nav-cta{border-radius:9999px;background:var(--accent);color:var(--accent-foreground)!important;padding:.375rem 1rem}
+    .btn{display:inline-block;cursor:pointer;border-radius:1rem;padding:1rem 2.5rem;font-family:var(--font-display);font-size:1.25rem}
+    .btn-accent{background:var(--accent);color:var(--accent-foreground);box-shadow:0 6px 0 0 color-mix(in oklab,var(--accent) 60%,black)}
+    .hero{margin-bottom:5rem;border-radius:var(--radius-2xl);border:4px dashed color-mix(in oklab,var(--primary) 40%,transparent);background:var(--secondary);padding:2.5rem 1.5rem;text-align:center}
+    .hero h1{margin-bottom:1.5rem;font-size:3rem;line-height:1.15;color:var(--primary)}
+    .hero p{margin-inline:auto;margin-bottom:2rem;max-width:42rem;font-size:1.25rem;line-height:1.6;color:var(--secondary-foreground)}
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Fonts and the full stylesheet are loaded async (preload -> swap to
+       stylesheet on load) so they never block first paint. This also takes
+       both requests out of the critical/render-blocking chain that
+       PageSpeed was flagging. -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="css/style.css" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="css/style.css" />
+  </noscript>
+</head>
+<body>
+  <div class="min-h-screen">
+    <nav class="site-nav">
+      <div class="container" style="padding-block: 1rem;">
+        <a href="#top" class="brand">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span class="brand-name">Tabletop Teachings</span>
+        </a>
+        <div class="nav-links">
+          <a href="#tenets">Our Quests</a>
+          <a href="adventures/">Adventures</a>
+          <a href="#join">How To Join</a>
+          <a href="#contact" class="nav-cta">Say Hello</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <header id="top" class="hero">
+        <span class="eyebrow">Adventure Awaits</span>
+        <h1>Tabletop Teachings</h1>
+        <p>Where young heroes play Dungeons &amp; Dragons to master reading, writing, and drama skills</p>
+        <a href="#contact" class="btn btn-accent">Start Your Journey</a>
+      </header>
+
+      <main>
+        <section id="tenets" class="section">
+          <h2 class="section-title">What We Stand For</h2>
+          <div class="tenets-grid">
+            <article class="tenet-card tone-quest-1">
+              <div class="tenet-icon" style="background-color: var(--quest-1);"><span class="shape-diamond" aria-hidden="true"></span></div>
+              <h3 style="color: color-mix(in oklab, var(--quest-1) 78%, black);">Handcrafted Worlds and Campaigns</h3>
+              <p>Every adventure is written from scratch around the young heroes at the table for their interests, reading level, and the skills they're working on.</p>
+            </article>
+            <article class="tenet-card tone-quest-2">
+              <div class="tenet-icon" style="background-color: var(--quest-2);"><span class="shape-circle" aria-hidden="true"></span></div>
+              <h3 style="color: color-mix(in oklab, var(--quest-2) 78%, black);">Fun and Safe Learning Environment</h3>
+              <p>Clear table rules, gentle guidance and space for everyone to speak up. The learning happens because the game is genuinely fun.</p>
+            </article>
+            <article class="tenet-card tone-quest-3">
+              <div class="tenet-icon" style="background-color: var(--quest-3);"><span class="shape-bar" aria-hidden="true"></span></div>
+              <h3 style="color: color-mix(in oklab, var(--quest-3) 78%, black);">No Experience or Equipment Required</h3>
+              <p>Dice, character sheets, miniatures and rulebooks are all provided. Players can arrive having never rolled a d20 and be adventuring within minutes.</p>
+            </article>
+            <article class="tenet-card tone-quest-4">
+              <div class="tenet-icon" style="background-color: var(--quest-4);"><span class="shape-corner" aria-hidden="true"></span></div>
+              <h3 style="color: color-mix(in oklab, var(--quest-4) 78%, black);">Custom Adventures</h3>
+              <p>Each campaign and session is built around specific reading, writing and social objectives subtly imbued into the story.</p>
+            </article>
+            <article class="tenet-card tone-quest-5">
+              <div class="tenet-icon" style="background-color: var(--quest-5);"><span class="shape-spark" aria-hidden="true"></span></div>
+              <h3 style="color: color-mix(in oklab, var(--quest-5) 78%, black);">Take Home Educational Resources</h3>
+              <p>Players leave with materials tied to the adventure: journals, reading passages, writing prompts and character work to continue between sessions.</p>
+            </article>
+            <article class="tenet-card tone-quest-6">
+              <div class="tenet-icon" style="background-color: var(--quest-6);"><span class="shape-pill" aria-hidden="true"></span></div>
+              <h3 style="color: color-mix(in oklab, var(--quest-6) 78%, black);">Personalised Learning Records &amp; Outcomes</h3>
+              <p>Progress is tracked for each player and shared with families, so growth in literacy and social confidence is visible over time.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="live-quests" class="section">
+          <h2 class="section-title">Adventures In Progress</h2>
+          <div id="home-quests-grid" class="campaign-switcher"></div>
+          <p class="section-cta-wrap">
+            <a href="adventures/" class="section-cta">See All Adventures →</a>
+          </p>
+        </section>
+
+        <section id="join" class="section join-section">
+          <h2 class="section-title">How To Join The Party</h2>
+          <ol class="steps">
+            <li class="step-item">
+              <div class="step">
+                <span class="step-badge" style="border-color: var(--primary); color: color-mix(in oklab, var(--primary) 80%, black);">1</span>
+                <h3>Say Hello</h3>
+                <p>Tell us about your young adventurer, their interests and the skills you'd like to focus on.</p>
+              </div>
+            </li>
+            <li class="step-item">
+              <span class="step-connector" aria-hidden="true"></span>
+              <div class="step">
+                <span class="step-badge" style="border-color: var(--quest-1); color: color-mix(in oklab, var(--quest-1) 80%, black);">2</span>
+                <h3>We Write the Quest</h3>
+                <p>A campaign is handcrafted around those goals, paced to suit the group at the table.</p>
+              </div>
+            </li>
+            <li class="step-item">
+              <span class="step-connector" aria-hidden="true"></span>
+              <div class="step">
+                <span class="step-badge" style="border-color: var(--quest-3); color: color-mix(in oklab, var(--quest-3) 80%, black);">3</span>
+                <h3>Play and Level Up</h3>
+                <p>Sessions run regularly, resources go home, and learning records are shared as the story unfolds.</p>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section id="contact" class="section" style="scroll-margin-top: 6rem; margin-bottom: 0;">
+          <div class="contact-card">
+            <h2>Message the DM</h2>
+            <p>Families, schools and support services — send a note about who you'd like to bring to the table and we'll take it from there.</p>
+            <a href="https://forms.gle/FaDSAM434s5T8QVz7" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Fill Out Our Form</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        © <span id="year"></span> Tabletop Teachings
+      </footer>
+    </div>
+  </div>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="js/adventures-data.js"></script>
+  <script src="js/home-quests.js"></script>
+</body>
+</html>
